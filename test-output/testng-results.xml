@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Threading" duration-ms="6144" started-at="2021-12-28T08:51:23Z" finished-at="2021-12-28T08:51:30Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="6144" started-at="2021-12-28T08:51:23Z" finished-at="2021-12-28T08:51:30Z">
+      <class name="MultiThreading._3_ExampleWithPojo">
+        <test-method status="PASS" signature="test11()[pri:0, instance:MultiThreading._3_ExampleWithPojo@5c0369c4]" name="test11" duration-ms="2072" started-at="2021-12-28T14:21:23Z" finished-at="2021-12-28T14:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method status="PASS" signature="test12()[pri:0, instance:MultiThreading._3_ExampleWithPojo@5c0369c4]" name="test12" duration-ms="2035" started-at="2021-12-28T14:21:25Z" finished-at="2021-12-28T14:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method status="PASS" signature="test13()[pri:0, instance:MultiThreading._3_ExampleWithPojo@5c0369c4]" name="test13" duration-ms="2012" started-at="2021-12-28T14:21:27Z" finished-at="2021-12-28T14:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+      </class> <!-- MultiThreading._3_ExampleWithPojo -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing Threading -->
+</testng-results>

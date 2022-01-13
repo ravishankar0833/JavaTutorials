@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Threading]">
+  <test name="Regression(failed)" parallel="classes">
+    <classes>
+      <class name="MultiThreading._3_ExampleWithPojo">
+        <methods>
+          <include name="test11"/>
+          <include name="test12"/>
+          <include name="test13"/>
+        </methods>
+      </class> <!-- MultiThreading._3_ExampleWithPojo -->
+      <class name="MultiThreading._3_ExampleWithPojo2">
+        <methods>
+          <include name="test21"/>
+          <include name="test23"/>
+          <include name="test22"/>
+        </methods>
+      </class> <!-- MultiThreading._3_ExampleWithPojo2 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Threading] -->
